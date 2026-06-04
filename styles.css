@@ -1,0 +1,112 @@
+/* General */
+body{
+
+    background-color: #000054;
+    font-family: Arial, sans-serif;
+}
+
+/* Logo */
+header {
+  background:#284d9d;
+  padding: 30px;
+  margin: 0cm;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+
+}
+
+/* Bara de navigare */
+.navbar {
+  display: flex;
+  justify-content: center;
+  background-color: #42487e;
+}
+
+/* Navigare: links */
+.navbar a {
+  color: white;
+  padding: 14px 20px;
+  text-decoration: none;
+  text-align: center;
+}
+
+/* Navigare: hover efect */
+.navbar a:hover {
+  background-color: #067dcc;
+  color: black;
+}
+
+/* Stanga */
+nav {
+    float:left;
+    background: #6b86cc;
+    text-align: center;
+    width:200px;
+    padding: 3px 5px;
+    height:715px;
+    color: white;
+}
+
+/* Dreapta */
+aside{
+    background-color:  #6b86cc;
+    width: 167px;
+    height: 715px;
+    padding: 3px 5px;
+    text-align: center;
+    float: right
+}
+
+/* Continutul */
+main{
+    height: 690px;
+    margin: 10px;
+    align-self:center;
+    text-align:center;
+    color: rgb(70, 17, 17);
+}
+
+/* Footer ig */
+footer {
+  background:rgb(103, 69, 149);
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 7px;
+}
+::webkit-scrollbar-track {
+  background: #0f0f69;
+}
+::-webkit-scrollbar-thumb {
+  background: #056ee6;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #1639b8;
+}
+
+/* S-ar putea sa fie degeaba */
+section {
+   background-color: #1a1a2e;
+   color: white;
+  margin-bottom: 10px;
+   margin-left: 10px;
+   margin-right: 10px;
+  padding: 10px;
+
+}
+
+/* Am incercat sa punem imaginile local, dar pur si simplu nu merg, speram ca momentan nu e vreo problema. */
+/* Ar fi trebuit sa fie: src="/AnimeCovers/Naruto.jpg" samd(la restul). */
+
+/* PROBLEME:
+- Imaginile (explicat mai sus).
+- La vide e aceasi promlema ca la imagini.
+- Autoplay nu merge.
+- Audio (explica sabin).
+- Cred ca mai erau, dar am uitat.
+*/
